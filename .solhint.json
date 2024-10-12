@@ -1,0 +1,14 @@
+{
+  "extends": "solhint:recommended",
+  "rules": {
+    "indent": "off",
+    "max-line-length": "off",
+    "quotes": "off",
+    "visibility-modifier-order": "off",
+    "compiler-version": ["error", "^0.8.0"],
+    "func-visibility": ["warn", { "ignoreConstructors": true }],
+    "no-empty-blocks": "off",
+    "not-rely-on-time": "error",
+    "reason-string": ["warn", { "maxLength": 64 }]
+  }
+}
